@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* webrx CSS Document */
+*{ margin:0; padding:0;}
+body{ width:1920px; height:100%; background:#300243; font-family:"Microsoft YaHei",宋体; font-size:12px; color:#fff;}
+ul,ol{ list-style:none;}
+a{ text-decoration:none; color:#FFF; font-size:12px;}
+img{ border:none;}
+
+.center{ width:1000px; margin:0 auto; height:100%;}
+
+.head{ width:100%; height:70px; margin-top:35px;}
+h1{ float:left;}
+.head ul{ float:right; background:#21A1D7; width:700px; height:70px;}
+.head ul li{ float:left; width:100px; height:70px; text-align:center;}
+.head ul li span{ display:block; font-size:12px;}
+.head ul li a{ font-size:18px; display:block; width:100px; height:55px; padding-top:15px; position:relative;}
+.head ul li a:hover,.head ul li .active{ background:#05841B;}
+.head ul li a:hover:after,.head ul li .active:after{ content:""; width:0; height:0; overflow:hidden; border:10px solid transparent; border-top-color:#05841B; position:absolute; left:40%; top:100%;}
+
+.content{ height:1000px;}
+.news{ width:100%; height:311px;; margin-top:35px;}
+.news .news-tit{ width:138px; height:311px; background:#05841B; float:left;}
+.news .news-tit h2{ width:55px; font-weight:500; font-size:20px; margin-left:45px; padding-top:55px;}
+.news .news-tit h2 span{ display:block; font-size:14px;}
+.news .news-tit p{ text-align:center; margin-top:25px;}
+
+.news .news-pic{ width:472px; height:311px; float:left; margin-left:10px; position:relative;}
+.news .news-pic li span{ text-align:center; line-height:50px; font-size:18px; display:block; width:472px; height:50px; position:relative; left:0; bottom:50px; background:rgba(32,177,103,0.5);}
+
+.news .news-pic .pic{ position:relative; width:472px; height:311px;}
+.news .news-pic .bx-window{ width:30px; float:right;}
+.news .news-pic .bx-prev{ display:block; width:50px; text-align:center; line-height:35px; height:35px; background:rgba(0,0,0,0.6); color:#fff; opacity:0.2; position:absolute; left:0px; top:150px;}
+.news .news-pic .bx-next{ display:block; opacity:0.2; width:50px; text-align:center; line-height:35px; height:35px; background:rgba(0,0,0,0.6); color:#fff; position:absolute; right:0px; top:150px;}
+.news-pic .bx-prev:hover,.news-pic .bx-next:hover{ opacity:1;}
+
+.news .news-list-top ul li{ float:left; width:180px; height:160px; margin-left:10px; position:relative;}
+.news .news-list-top ul span{ display:block; opacity:0; width:180px; height:160px; position:absolute; left:0px; top:0px; color:#FFFFFF; text-align:center; line-height:160px;}
+.news .news-list-top li:hover span{ opacity:1; background:rgba(0,0,0,0.5);}
+.news .news-list-top ol{ margin:10px 0 0 10px; float:left; width:370px; height:120px; background:#A0168E;  padding-top:20px;}
+.news .news-list-top ol li{ background:url(../images/icon.gif) no-repeat 10px 11px;}
+.news-list-top ol a{ display:block; font-size:14px; margin-left:20px; line-height:24px;}
+.news-list-top ol a:hover{ text-decoration:underline;}
+
+.intro{ width:100%; height:310px;}
+.intro .intro-tit{ width:181px; height:310px; background:#05841B; margin-top:20px; float:left;}
+.intro h3{ font-size:18px; font-weight:500; text-align:center; line-height:60px; padding-top:15px;}
+.intro p{ text-indent:2em; width:150px; margin-left:15px; line-height:20px;}
+.intro .intro-tit a:hover{ text-decoration:underline;}
+
+.intro .intro-pic ul{ padding-top:10px;}
+.intro .intro-pic ul li{ float:left; width:263px; height:150px; margin:10px 0px 0 10px;}
+
+.test{ width:100%; height:310px;}
+.test .test-tit{ float:left; background:#101C9F; width:263px; height:150px; margin-top:25px;}
+.test h3{ font-size:18px; font-weight:500; line-height:40px; text-align:center;}
+.test .test-tit p{ margin-left:10px; width:250px; height:85px; line-height:18px; text-align:left; text-indent:2em; overflow:hidden;}
+.test-tit .test-pic-1{ float:left; clear:left; padding-top:35px;}
+.test-pic-2{ float:left; width:263px; height:150px; padding-top:25px; margin-left:10px;}
+
+.test-tit-2{ width:181px; height:310px; background:#05841B; margin-top:25px; float:left; margin-left:10px;}
+.test-tit-2 h3{ font-size:18px; font-weight:500; text-align:center; line-height:60px; padding-top:15px;}
+.test-tit-2 p{ text-indent:2em; width:150px; margin-left:15px; line-height:20px;}
+.test-tit-2 p a:hover{ text-decoration:underline;}
+.test-pic-3 ul{ float:right; margin-top:25px;}
+.test-pic-3 ul li{ margin-bottom:8px;}
+
+.foot-up{ width:100%; height:50px; background:#02b6e9;}
+.foot-up p a{ margin-top:10px; width:125px; height:32px; float:right; font-size:20px; background:url(../images/returnIcon.jpg) no-repeat 90px 0; line-height:32px;}
+.foot-down{ width:100%; height:100px; text-align:center; line-height:100px; font-size:18px;}
+
+/*------------------------新闻页面-------------------*/
+.news-left-1{ float:left;}
+.news-txt{ width:472px; height:100px; background-color:#05841B; margin-bottom:10px;}
+.news h2{ font-size:14px; background:url(../images/exhibitionsMainLeftIcon.jpg) no-repeat 90px 28px; margin-left:150px; padding-top:28px;} 
+.news h2 span{ display:block; font-weight:500; font-size:20px;}
+
+.news-right-1{ float:left; position:relative;}
+.news .news-list{ width:518px; height:370px; background:#49066A; float:left; margin-left:10px;}
+.news-list ul{ line-height:28px; margin-top:20px; margin-left:35px;}
+.news-list ul li a{ display:block; font-size:14px; background:url(../images/icon.gif) no-repeat 0 12px; padding-left:10px;}
+.news-list ul li a:hover{ text-decoration:underline;}
+.news-right-1 .news-list ul li span{ float:right; margin-right:25px;}
+.news-right-1 .btn{ width:300px; height:50px; position:absolute; left:310px; top:400px;}
+.news-right-1 .btn ul li{ display:block; float:left; margin-left:10px;}
+.news-right-1 .num{ width:20px; height:20px;}
+.news-right-1 .page{ height:20px; width:55px;}
+.news-right-1 input{ background:transparent; color:#fff; border:1px solid #fff;}
+.news-right-1 input:hover{ cursor:pointer; background:#fff; color:#000;}
+
+
+/*-------------------------新闻内容---------------------------*/
+.news .news-tit-1{ width:138px; height:450px; background:#05841B; float:left;}
+.news .news-tit-1 h2{ width:60px; font-weight:500; font-size:24px; margin-left:45px;}
+.news .news-tit-1 h2 span{ display:block; font-size:14px;}
+.news .news-tit-1 p{ text-align:center; margin-top:90px;}
+
+.news-right{ float:left; background:#fff; width:852px; height:600px; color:#333; margin-left:10px;}
+.news-right .news-txt-1 h3{ font-size:24px; color:#1F1F1F; font-weight:300; width:800px; height:60px; line-height:70px; box-sizing:border-box; border-bottom:2px solid #076803; margin-left:26px; text-align:center;}
+.news-right .news-txt-1 dl{ width:450px; height:100%; float:right; margin-top:10px; margin-bottom:40px;}
+.news-right .news-txt-1 dl dd{ margin-left:30px; float:left;}
+.news-right .news-txt-1 dl dt{ float:left;}
+.news-right .news-txt-1 p{ margin-left:49px; float:left; width:750px; height:100%; font-size:14px; line-height:28px; text-indent:2em;}
+
+
+.news-right .txt-reading{ float:left; margin-bottom:50px;}
+.news-right .txt-reading h4{ font-size:18px; color:#232323; font-weight:300; width:800px; height:55px; line-height:70px; box-sizing:border-box; border-bottom:2px solid #076803; margin-left:26px;}
+.news-right .txt-reading ul{ margin-left:45px; margin-top:15px;}
+.news-right .txt-reading ul span{ float:right; margin-right:25px;}
+.news-right .txt-reading a{ color:#333; font-size:12px; line-height:22px;}
+.news-right .txt-reading a:hover{ text-decoration:underline;}
+
+
+/*----------------------------活动主题---------------------*/
+.details{ background:url(../images/huodongbg.png) no-repeat 300px -250px;; height:1000px; margin-top:150px;}
+.activity{ width:100%; height:311px;}
+.activity .activity-tit{ width:138px; height:450px; background:#9843bc; float:left;}
+.activity .activity-tit h2{ width:60px; font-weight:500; font-size:24px; margin-left:45px;}
+.activity .activity-tit h2 span{ display:block; font-size:12px;}
+.activity .activity-tit p{ text-align:center; margin-top:85px; line-height:60px;}
+.activity .activity-infor{ width:430px; height:450px; background:url(../images/huodongbg2.png); float:left;}
+.activity .activity-infor dl{ margin-top:45px; margin-left:25px;}
+.activity .activity-infor dd{ clear:both; float:left; font-size:18px; font-weight:600; text-indent:2em;}
+.activity .activity-infor dt{ line-height:24px; font-size:14px; width:380px;}
+
+.activity .activity-txt{ width:412px; height:500px; float:right; text-align:right; line-height:300px; background:url(../images/hd_hj.jpg) no-repeat;}
+.activity .activity-txt ul{ margin-left:55px; margin-top:125px;  }
+.activity .activity-txt ul li{float:left; width:97px; height:85px; text-align:center; line-height:85px;}
+.activity .activity-txt ul li a:hover{ text-decoration:underline; cursor:pointer;}
+
+
+/*---------------------------实验室介绍---------------------------*/
+.lab{ width:100%; height:310px; margin-top:15px;}
+.lab1{ width:100%; height:310px; margin-top:35px;}
+.lab1 .lab1-tit{ float:left; background:#101C9F; width:263px; height:150px;}
+.lab1 h3{ font-size:18px; font-weight:500; line-height:40px; text-align:center;}
+.lab1 .lab1-tit p{ margin-left:10px; width:250px; height:85px; line-height:18px; text-align:left; text-indent:2em; overflow:hidden;}
+.lab1-tit .lab1-pic-1{ float:left; clear:left; margin-top:35px;}
+.lab1-pic-2{ float:left; width:263px; height:150px; margin-left:10px;}
+
+.lab1-tit-2{ width:181px; height:310px; background:#05841B; float:left; margin-left:10px;}
+.lab1-tit-2 h3{ font-size:18px; font-weight:500; text-align:center; line-height:60px; padding-top:15px;}
+.lab1-tit-2 p{ text-indent:2em; width:150px; margin-left:15px; line-height:20px;}
+.lab1-tit-2 p a:hover{ text-decoration:underline;}
+.lab1-pic-3 ul{ float:right;}
+.lab1-pic-3 ul li{ margin-bottom:8px;}
+
+
+.lab2 .lab2-tit{ float:left; background:#101C9F; width:263px; height:150px;}
+.lab2 h3{ font-size:18px; font-weight:500; line-height:40px; text-align:center;}
+.lab2 .lab2-tit p{ margin-left:10px; width:250px; height:85px; line-height:18px; text-align:left; text-indent:2em; overflow:hidden;}
+.lab2-tit .lab2-pic-1{ float:left; clear:left; margin-top:35px;}
+.lab2-pic-2{ float:left; width:263px; height:150px; margin-left:10px;}
+
+.lab2-tit-2{ width:181px; height:310px; background:#05841B; float:left; margin-right:10px;}
+.lab2-tit-2 h3{ font-size:18px; font-weight:500; text-align:center; line-height:60px; padding-top:15px;}
+.lab2-tit-2 p{ text-indent:2em; width:150px; margin-left:15px; line-height:20px;}
+.lab2-tit-2 p a:hover{ text-decoration:underline;}
+.lab2-pic-3 ul{ float:right;}
+.lab2-pic-3 ul li{ margin-bottom:8px;}
+
+
+.lab3 .lab3-tit{ float:left; background:#101C9F; width:263px; height:150px;}
+.lab3 h3{ font-size:18px; font-weight:500; line-height:40px; text-align:center;}
+.lab3 .lab3-tit p{ margin-left:10px; width:250px; height:85px; line-height:18px; text-align:left; text-indent:2em; overflow:hidden;}
+.lab3-tit .lab3-pic-1{ float:left; clear:left; margin-top:35px;}
+.lab3-pic-2{ float:left; width:263px; height:150px; margin-left:10px;}
+
+.lab3-tit-2{ width:181px; height:310px; background:#05841B; float:left; margin-left:10px;}
+.lab3-tit-2 h3{ font-size:18px; font-weight:500; text-align:center; line-height:60px; padding-top:15px;}
+.lab3-tit-2 p{ text-indent:2em; width:150px; margin-left:15px; line-height:20px;}
+.lab3-tit-2 p a:hover{ text-decoration:underline;}
+.lab3-pic-3 ul{ float:right;}
+.lab3-pic-3 ul li{ margin-bottom:8px;}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>科普新闻</title>
+<meta name="description" content="简介">
+<meta name="keywords" content="关键字">
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/bxSlider.js"></script>
+</head>
+<script>
+$(function(){
+	$("#mypic").bxSlider({
+		mode: 'horizontal',
+		pager: false,
+		pagerLocation: 'bottom',
+		autoHover: true,
+		controls: true,
+		nextText: '下一页',
+		prevText: '上一页',
+		});
+	
+	})
+</script>
+<body>
+<!---------head start----->
+	<div class="head">
+    	<div class="center">
+    		<h1><img src="images/logo.gif"/></h1>
+            <ul>
+            	<li><a href="index.html">首页<span>Home</span></a></li>
+                <li><a href="lab.html">实验室介绍<span>Overview</span></a></li>
+                <li><a href="activity.html">主题活动<span>Event</span></a></li>
+                <li><a href="news.html"  class="active ">新闻<span>News</span></a></li>
+                <li><a href="#">风采展示<span>Exhibition</span></a></li>
+                <li><a href="#">帮助手册<span>Help</span></a></li>
+                <li><a href="#">关于我们<span>About</span></a></li>
+            </ul>
+        </div>
+    </div>
+<!----------content start-------------->
+	<div class="content">
+    <!----------news start-------------->
+        <div class="news">
+            <div class="center">
+                <div class="news-left-1">
+                    <!----------news-txt start---->
+                    <div class="news-txt"><h2><span>新闻公告/</span>News/</h2></div>               
+                   <!----------news-tit start---->
+                    <div class="news-pic"  style=" margin-left:0;">
+                        <ul id="mypic">
+                            <li><a href="#" target="_blank"><img src="images/1.jpg" class="pic" title="1"/><span>2013北京科技周主场微博</span></a></li>
+                            <li><a href="#" target="_blank"><img src="images/2.jpg" class="pic" title="2"/><span>国务院副总理刘延东参观科技周展馆</span></a></li>
+                            <li><a href="#" target="_blank"><img src="images/3.jpg" class="pic" title="3"/><span>青少年现场享受科技“视听大餐”</span></a></li>
+                            <li><a href="#" target="_blank"><img src="images/4.jpg" class="pic" title="4"/><span>“蛟龙”号载入深潜器模型亮相科技周</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            <!----------news-list start-------->
+                <div class="news-right-1">
+                    <div class="news-list">
+                        <ul>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                            <li><a href="#">2013年全国科技活动周暨上海科技节圆满结束<span>2013-11-16</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <ul>
+                            <li><input type="button" value="上一页" name="btn" class="page" src="#"/></li>
+                            <li><input type="button" value="1" name="btn" class="num" src="#"/></li>
+                            <li><input type="button" value="2" name="btn" class="num" src="#"/></li>
+                            <li><input type="button" value="3" name="btn" class="num" src="#"/></li>
+                            <li><input type="button" value="下一页" name="btn" class="page" src="#"/></li>
+                        </ul>
+                     </div>
+              </div>
+          <!------------news-list ed----------->
+          </div>
+        </div>
+        
+</div>
+<!-------------------foot start----------------------->
+	<div class="foot">
+    <!---------foot-up start------------->
+    	<div class="foot-up">
+        	<div class="center">
+            	<p><a href="#">回到顶部/</a></p>
+            </div>
+        </div>
+     <!---------foot-down start------------->
+     	<div class="foot-down">
+        	<p>北京大学实验室</p>
+        </div>
+    </div>
+</body>
+</html>
